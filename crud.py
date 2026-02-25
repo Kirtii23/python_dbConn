@@ -37,6 +37,7 @@ from dbcon import connection
 #for data in records:
 #    print(data)
 print("You are wrong")
+print("I am Kirti")
 
 def updateData(rollNo,id):
     updateQuery = """UPDATE students SET rollNo = %s where id=%s"""
